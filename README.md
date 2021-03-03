@@ -1,5 +1,5 @@
 # stratified_group_kfold
-Stratified group K-fold cross validation inheriting scikit-learn base class
+Stratified Group K-fold cross validation inheriting scikit-learn base class
 
 ## Background
 K-fold cross validation can be performed in several manners like [StratifiedKFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html#sklearn.model_selection.StratifiedKFold) 
