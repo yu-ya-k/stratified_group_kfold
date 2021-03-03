@@ -34,4 +34,4 @@ class TestStratifiedGroupKfold(TestCase):
         _test(2, 500, 5)
         _test(3, 500, 2)
         _test(3, 500, 3)
-        _test(3, 500, 3)
+        _test(3, 500, 5)
