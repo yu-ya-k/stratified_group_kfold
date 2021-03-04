@@ -6,7 +6,7 @@ K-fold cross validation can be performed in several manners like [StratifiedKFol
 and [GroupKFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupKFold.html#sklearn.model_selection.GroupKFold), 
 but a method combining these two has not been officially implemented in [scikit-learn](https://scikit-learn.org/stable/index.html).
 
-This repository implements Stratified Group K-fold cross validation with inheriting scikit-learn base K-fold class for easier application with other scikit-lean classes. 
+This repository implements Stratified Group K-fold cross validation with inheriting scikit-learn base K-fold class for easier application with other scikit-lean classes. Repeated option is available. 
 
 Multilabel dataset can be dealt with [concatenating label columns](https://github.com/yu-ya-k/stratified_group_kfold/blob/3e4f9740ee596ef827e5ade8eff7b5bbe92a6f96/sgkfold/stratified_group_kfold.py#L27).
 
