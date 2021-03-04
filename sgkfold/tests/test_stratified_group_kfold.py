@@ -36,7 +36,7 @@ class TestStratifiedGroupKfold(TestCase):
         _test(3, 2000, 3)
         _test(3, 2000, 4)
 
-    def test_repeated_split(self):
+    def test_repeated_multilabel_split(self):
         seed = 0
         np.random.seed(seed)
 
